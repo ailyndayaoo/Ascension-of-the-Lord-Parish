@@ -23,7 +23,7 @@ export default function App() {
       </div>
 
       {/* Navigation */}
-      <nav className="relative z-20 flex items-center justify-between px-6 py-4 md:px-16">
+      <nav className="relative z-20 flex items-center justify-between px-6 pt-2 pb-4 md:px-16">
         <div className="flex items-center gap-2">
           <Church className="h-6 w-6" />
         </div>
@@ -45,7 +45,7 @@ export default function App() {
       {/* Main Content */}
       <main className="relative z-10 flex flex-col md:flex-row min-h-[calc(100vh-80px)] px-6 md:px-16 gap-8 md:gap-12">
         {/* Left Section */}
-        <div className="flex flex-1 flex-col justify-center md:justify-between py-12 md:py-24">
+        <div className="flex flex-1 flex-col justify-center md:justify-between pt-4 pb-12 md:pt-8 md:pb-24">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
@@ -88,7 +88,7 @@ export default function App() {
         </div>
 
         {/* Right Section - Dark Square with Images */}
-        <div className="flex flex-1 items-center justify-center md:justify-end py-12 md:py-24">
+        <div className="flex flex-1 items-center justify-center md:justify-end pt-4 pb-12 md:pt-8 md:pb-24">
           <div className="relative h-[350px] sm:h-[450px] md:h-[620px] w-full max-w-[480px] bg-[#2d2424] shadow-2xl">
             {/* Top Image */}
             <motion.div
