@@ -7,7 +7,7 @@ import { Search, ArrowRight, Church } from "lucide-react";
 import { motion } from "motion/react";
 
 export default function App() {
-  const bgImage = "https://img.sanishtech.com/u/8af2b658dcfb81c3339f2cbbfa9a5b18.jpg";
+  const bgImage = "https://img.sanishtech.com/u/e576114a524ce919ebfbce3736e67b44.jpg";
 
   return (
     <div className="relative min-h-screen w-full overflow-hidden font-sans text-[#1a237e]">
@@ -98,7 +98,7 @@ export default function App() {
               className="absolute -left-12 sm:-left-32 md:-left-56 -top-4 md:-top-5 z-20 h-[150px] sm:h-[200px] md:h-[280px] w-[110%] sm:w-[120%] md:w-[650px] overflow-hidden shadow-2xl"
             >
               <img 
-                src="https://img.sanishtech.com/u/9ebef1a11ea533306411e5a03f026254.jpg" 
+                src="https://img.sanishtech.com/u/59429e66389be730261f8ba894169487.jpg" 
                 alt="Parish interior top" 
                 className="h-full w-full object-cover"
                 referrerPolicy="no-referrer"
@@ -113,7 +113,7 @@ export default function App() {
               className="absolute -left-12 sm:-left-32 md:-left-56 bottom-8 md:bottom-16 z-20 h-[150px] sm:h-[200px] md:h-[280px] w-[110%] sm:w-[120%] md:w-[600px] overflow-hidden shadow-2xl"
             >
               <img 
-                src="https://img.sanishtech.com/u/ecb27147cfa955830c5127418f6d038a.jpg" 
+                src="https://img.sanishtech.com/u/2b53442cd13a6eb05ee9fecb3b4885bb.jpg" 
                 alt="Parish interior bottom" 
                 className="h-full w-full object-cover"
                 referrerPolicy="no-referrer"
