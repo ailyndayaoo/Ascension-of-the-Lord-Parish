@@ -51,12 +51,12 @@ export default function App() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <h1 className="text-3xl sm:text-5xl md:text-7xl font-black leading-[1.05] tracking-tighter text-[#1a237e] mb-4 font-display">
+            <h1 className="text-3xl sm:text-5xl md:text-7xl font-black md:leading-[1.05] tracking-wide text-[#1a237e] mb-4 font-display">
               ASCENSION<br />
               OF THE LORD<br />
               PARISH
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl font-bold tracking-[0.2em] md:tracking-[0.25em] text-[#1a237e] font-display">
+            <p className="text-base sm:text-lg md:text-2xl tracking-tighter text-[#1a237e] font-display opacity-90 uppercase">
               ARCHDIOCESE OF DAVAO
             </p>
           </motion.div>
@@ -133,7 +133,7 @@ export default function App() {
       {/* Decorative Dots Left */}
       <div className="absolute left-4 top-1/2 -translate-y-1/2 grid grid-cols-1 gap-2 opacity-15">
         {[...Array(6)].map((_, i) => (
-          <div key={i} className="h-1 w-1 rounded-full bg-[#1a237e]" />
+          <div key={i} className="h-1 w-1 rounded-full bg-white" />
         ))}
       </div>
     </div>
