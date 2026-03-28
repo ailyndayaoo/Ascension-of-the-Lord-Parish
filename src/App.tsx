@@ -7,7 +7,7 @@ import { Search, ArrowRight, Church } from "lucide-react";
 import { motion } from "motion/react";
 
 export default function App() {
-  const bgImage = "https://img.sanishtech.com/u/e576114a524ce919ebfbce3736e67b44.jpg";
+  const bgImage = "https://plain-apac-prod-public.komododecks.com/202603/28/yWhWSu5ahttAA4oU4Elg/image.jpg";
 
   return (
     <div className="relative min-h-screen w-full overflow-hidden font-sans text-[#1a237e]">
@@ -98,7 +98,7 @@ export default function App() {
               className="absolute -left-12 sm:-left-32 md:-left-56 -top-4 md:-top-5 z-20 h-[150px] sm:h-[200px] md:h-[280px] w-[110%] sm:w-[120%] md:w-[650px] overflow-hidden shadow-2xl"
             >
               <img 
-                src="https://img.sanishtech.com/u/59429e66389be730261f8ba894169487.jpg" 
+                src="https://plain-apac-prod-public.komododecks.com/202603/28/lv88dTFNUlrGxl8WUtlr/image.jpg" 
                 alt="Parish interior top" 
                 className="h-full w-full object-cover"
                 referrerPolicy="no-referrer"
@@ -113,7 +113,7 @@ export default function App() {
               className="absolute -left-12 sm:-left-32 md:-left-56 bottom-4 md:bottom-8 z-20 h-[150px] sm:h-[200px] md:h-[280px] w-[110%] sm:w-[120%] md:w-[600px] overflow-hidden shadow-2xl"
             >
               <img 
-                src="https://img.sanishtech.com/u/2b53442cd13a6eb05ee9fecb3b4885bb.jpg" 
+                src="https://plain-apac-prod-public.komododecks.com/202603/28/yeUMV8OS3lbW0z3ixR6X/image.jpg" 
                 alt="Parish interior bottom" 
                 className="h-full w-full object-cover"
                 referrerPolicy="no-referrer"
