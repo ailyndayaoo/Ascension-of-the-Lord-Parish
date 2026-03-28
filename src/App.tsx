@@ -110,7 +110,7 @@ export default function App() {
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.7 }}
-              className="absolute -left-12 sm:-left-32 md:-left-56 bottom-8 md:bottom-16 z-20 h-[150px] sm:h-[200px] md:h-[280px] w-[110%] sm:w-[120%] md:w-[600px] overflow-hidden shadow-2xl"
+              className="absolute -left-12 sm:-left-32 md:-left-56 bottom-4 md:bottom-8 z-20 h-[150px] sm:h-[200px] md:h-[280px] w-[110%] sm:w-[120%] md:w-[600px] overflow-hidden shadow-2xl"
             >
               <img 
                 src="https://img.sanishtech.com/u/2b53442cd13a6eb05ee9fecb3b4885bb.jpg" 
