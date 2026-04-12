@@ -17,7 +17,7 @@ export default function Schedule() {
       day: "Saturday",
       times: [
         { time: "6:00 AM", detail: "English" },
-        { time: "5:30 PM", detail: "Cebuano (Anticipated Mass)" }
+        { time: "5:30 PM", detail: "Cebuano" }
       ],
       color: "from-[#1a237e]/20 to-[#1a237e]/5",
       accent: "bg-[#1a237e]"
