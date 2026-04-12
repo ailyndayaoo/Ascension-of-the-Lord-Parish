@@ -48,6 +48,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           >
             About
           </Link>
+          <Link 
+            to="/schedule" 
+            className={`hover:opacity-70 transition-opacity ${location.pathname === "/schedule" ? "border-b-2 border-[#1a237e]" : ""}`}
+          >
+            Schedule
+          </Link>
           <Link to="#" className="hover:opacity-70 transition-opacity">Others</Link>
         </div>
       </nav>
